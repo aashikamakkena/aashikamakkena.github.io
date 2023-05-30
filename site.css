@@ -1,3 +1,11 @@
 h2{
     color:blue;
 }
+table, th, td {
+    border: 2px solid rgb(15, 15, 15);
+    border-collapse: collapse;
+    border-spacing: 30px;
+  }
+  th, td {
+    background-color: #eebbd9;
+  }
