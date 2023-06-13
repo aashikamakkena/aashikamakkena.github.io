@@ -10,7 +10,7 @@ let abdulyounginfo = {
 }
 let isabdulold = true;
 let displayobject;
-let getRandomUser = function(){
+let flipdata = function(){
     if(isabdulold == true){
         displayobject = abdulyounginfo;
         isabdulold = false;
