@@ -4,7 +4,11 @@ let abduloldinfo = {
     Description: "President of India"
 }
 
-let displayobject;
+let displayobject = {
+    name:"",
+    imgurl:"",
+    Description:""
+};
 let getRandomUser = function(){
     fetch("https://randomuser.me/api")
     .then(response => response.json())
