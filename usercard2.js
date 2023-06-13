@@ -3,14 +3,14 @@ let abduloldinfo = {
     name: "APJ Abdul Kalam",
     Description: "President of India"
 }
-let abdulyounginfo = {
+/*let abdulyounginfo = {
     imgurl: "https://im.indiatimes.in/content/2015/Jul/1_1438014687_725x725.jpg",
     name: "A.P.J Abdul Kalam",
     Description: "Scientist"
 }
-let isabdulold = true;
+let isabdulold = true;*/
 let displayobject;
-let flipdata = function(){
+let getRandomUser = function(){
     if(isabdulold == true){
         displayobject = abdulyounginfo;
         isabdulold = false;
